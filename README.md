@@ -31,10 +31,9 @@ Step 3:
 Open a command prompt or terminal.
 Navigate to the project directory.
 
+    php
 Run the following command to execute the code: 
-    python Audio-to-text-V1.py
-
-
+python <filename>.py
 
 Step 4:
 File selection:
