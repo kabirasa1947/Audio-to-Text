@@ -1,5 +1,33 @@
-# Audio-to-Text
-Conver MP3 to text  V1 
+# Audio-to-Text V1
+Convert MP3 to text  V1 
+
+# Audio Transcription
+
+This Python script allows you to upload an audio file, transcribe it using the OpenAI Whisper API, and obtain the transcript.
+
+## Prerequisites
+
+Before running the script, make sure you have the following installed:
+
+- Python (version 3.6 or later)
+- PyDub library (`pip install pydub`)
+- tkinter library (`pip install tkinter`)
+- FFmpeg library
+
+You also need to have an OpenAI API key. Set your API key by replacing the placeholder in the script with your actual API key.
+
+## Usage
+
+1. Run the script `transcribe_audio.py`.
+2. Select an MP3 file to upload and transcribe.
+3. The script will divide the audio file into chunks (if necessary), translate the audio to English (if necessary), and transcribe the audio using the OpenAI Whisper API.
+4. The resulting transcript will be displayed in the console.
+
+## Files
+
+- `transcribe_audio.py`: The main Python script for audio transcription.
+- `README.md`: This readme file.
+- `requirements.txt`: A file listing the required Python packages.
 
 Step 1:
 Install the required dependencies:
@@ -51,5 +79,13 @@ That's it! You have successfully run the code and obtained the audio transcript.
 
 
 If you encounter any issues or have additional questions, feel free to ask.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
 
 
