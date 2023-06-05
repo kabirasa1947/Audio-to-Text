@@ -31,9 +31,10 @@ Step 3:
 Open a command prompt or terminal.
 Navigate to the project directory.
 
-Run the following command to execute the code:
+Run the following command to execute the code: 
+    python Audio-to-text-V1.py
 
-python Audio-to-text-V1.py
+
 
 Step 4:
 File selection:
