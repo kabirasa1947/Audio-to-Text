@@ -5,7 +5,7 @@ from pydub import AudioSegment
 from tkinter import Tk, filedialog
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "Your-OPENAPI-Key"
 
 def upload_and_transcribe_audio():
     root = Tk()
