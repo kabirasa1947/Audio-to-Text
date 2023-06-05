@@ -31,8 +31,7 @@ Step 3:
 Open a command prompt or terminal.
 Navigate to the project directory.
 
-    php
-Run the following command to execute the code: 
+    php Run the following command to execute the code: 
 python <filename>.py
 
 Step 4:
